@@ -1,0 +1,89 @@
+body{
+	background:#e5e5e5;
+	color:#0068ff;
+	font-family: 'Roboto', sans-serif;, Arial, sans-serif;
+	padding: 0px 0 130px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto', serif;
+	font-size:
+}
+h1{
+	font-size: 300%;
+}
+
+/* un comentario en CSS se escribe de esta manera */
+
+a{color:#0068ff ; text-decoration: none;}
+
+a:hover{color:rgb(0, 0, 0); text-decoration: underline;}
+
+:hover{transition: ease all 1s;}
+
+nav{
+	padding:20px 120px 0;
+
+
+
+}
+
+nav ul li{
+	font-family: 'Roboto', serif;
+	font-size:150%;
+	color:#0068ff;
+	padding: 0.5rem0;
+}
+
+
+div.container{
+	margin:2rem;
+	position: relative;
+}
+
+
+@media screen and (max-width: 1024px){
+	h2{display:none;}
+}
+
+@keyframes espaciado {
+	from {letter-spacing: 0.01rem;}
+	to {letter-spacing: 0.1rem;}
+}
+
+
+
+figure{
+	background:#e5e5e5;
+
+}
+
+figure img{
+	width: 100%;
+	height:auto;
+}
+
+figure img:hover{
+	width: 100%;
+	height:auto;
+}
+
+figcaption{
+	padding:0.5rem;
+	font-size: 90%;
+	letter-spacing: 0.01rem;
+}
+
+
+
+
+s, del{
+	background:#e5e5e5;
+	color:#e5e5e5;
+	text-decoration:;
+}
+
+ins{
+	font-weight: bold;
+	text-decoration: none;
+}
